@@ -1,0 +1,27 @@
+input[type="text"]{
+  padding: 20px 15px;
+  width: 400px;
+}
+input[type="button"]{
+  padding: 20px 15px;
+}
+#addflex, .divclass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  padding: 15px;
+  width: 300px;
+  border-bottom: 1px solid rgb(235, 247,247);
+  color: rgb(235, 247, 247);
+margin-right: 20px;
+}
+button{
+  padding: 5px 15px;
+}
+#credits{
+  margin: 5px 0px 35px 0px;
+  color: rgb(235, 247, 247);
+  text-align: center;
+}
