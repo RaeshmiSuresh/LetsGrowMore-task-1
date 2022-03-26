@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        #buttonCSS{
+            padding: 10px 50px;
+            background-color: rgb(192, 181, 181);
+        }
+        #showData{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 50px 0px;
+        }
+        .input-element{
+            padding: 10px 20px;
+            width: 350px;
+            margin: 20px;
+        }
+        .section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .divCreation{
+            padding: 10px 20px;
+            margin: 20px 30px;
+            border: 1px solid rgb(192, 181, 181);;
+        }
+        
+    </style>
+</head>
+<body style="background-color: black;">
+    <h1 style="text-align: center; color: rgb(192, 181, 181);"> Task-3 </h1>
+    <!-- Input boxes -->
+    <form>
+        <div class="section">
+            <label for="name" style="color: rgb(192, 181, 181);"> Name </label>
+            <input type="text" class="input-element" id="subsection1" placeholder="Enter your name" />
+        </div>
+        <div class="section">
+            <label for="image" style="color: rgb(192, 181, 181);"> Image </label>
+            <input type="url" class="input-element" id="subsection2" placeholder="Input your image URL" />
+        </div>
+        <div class="section" style="color: rgb(192, 181, 181);">
+            <input type="button" onclick="func()" value="Admit" id="buttonCSS" /> 
+        </div>
+    </form>
+    
+    <div id="showData"></div>
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
